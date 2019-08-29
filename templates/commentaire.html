@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+		<title>Commentaire</title>
+	</head>
+	<body>
+		<form action = "/commentaire" method = "POST">
+			<div class="form-group">
+				<label for="commentaire">Commentaire:</label>
+				<input type="text" class="form-control" name="commentaire">
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+		<br>
+		<p> {{ com }} </p>
+		<p class="res">{% for m, r in res.items() %}
+        {{ m }} : {{ r }} 
+		<br>
+    {% endfor %}</div>
+	</body>
+</html>
