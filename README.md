@@ -11,7 +11,7 @@ Etapes pour tester le projet :
 	> cd Flask_Model
 4) Lancez le serveur
 	> python web_service.py
-5a) Lancez le script de test
+5) a) Lancez le script de test
 	> python test_web_service.py
-5b) accédez à http://127.0.0.1:5000/ dans un navigateur
+5) b) accédez à http://127.0.0.1:5000/ dans un navigateur
 	cliquez sur l'image, qui va vous emmener dans une autre page, puis entrer un commentaire dans l'input et appuyez sur submit.
