@@ -12,8 +12,8 @@ Etapes pour tester le projet :
 4) Lancez le serveur
 	> python web_service.py
 5) 
-	a) Lancez le script de test
-	> python test_web_service.py
+	a) Lancez le script de test avec en argument des commentaires entre guillemet séparés par un espace
+	> python test_web_service.py "ce produit est nul" "ce produit est top"
 
 	b) accédez à http://127.0.0.1:5000/ dans un navigateur
 	cliquez sur l'image, qui va vous emmener dans une autre page, puis entrer un commentaire dans l'input et appuyez sur submit.
